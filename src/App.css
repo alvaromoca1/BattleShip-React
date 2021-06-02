@@ -1,0 +1,75 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg_nav{
+  background:#2563EB;
+}
+.nav_item{
+  color:#60A5FA;
+}
+.nav_item:hover{
+  color:#93C5FD;
+}
+.board{
+  background:#F9FAFB;
+  padding:30px;
+  width:700px;
+}
+.board_cube{
+  height:50px;
+  margin:2px;
+}
+.water{
+  background:#3B82F6;
+}
+.ship {
+  background: #EF4444;
+  pointer-events: none;
+}
+.bom{
+  background: #4B5563 !important;
+  pointer-events: none;
+}
+.noship {
+  background: #cacaca;
+  pointer-events: none;
+}
+.water:hover{
+  background:#60A5FA;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
